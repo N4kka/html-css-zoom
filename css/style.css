@@ -5,6 +5,119 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+html {
+    font-size: 80%;
+}
+
 body {
-    background-color: aquamarine;
+    background-color: black;
+}
+
+.container {
+    width: 80%;
+    height: calc(100vh - 130px);
+    margin: 2.5em auto;
+    background-color: yellow;
+}
+
+.text {
+    color: white;
+}
+
+.button-size {
+    font-size: 2rem;
+    padding: .2em .5em;
+    line-height: 30px;
+    vertical-align: bottom;
+}
+
+/* HEADER */
+.view {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.speaker-view {
+    width: 95px;
+    height: 20px;
+    background-color: gray;
+    line-height: 20px;
+    padding: 0 3px;
+    margin-right: 5px;
+    border-radius: 5%;
+}
+
+.zoom {
+    width: 20px;
+    height: 20px;
+    font-size: 90%;
+    background-color: gray;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+/* MAIN */
+main {
+    overflow-y: auto;
+}
+
+.images {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* FOOTER */
+footer {
+    height: 60px;
+    background-color: #222222;
+    display: flex;
+}
+
+.audio-video {
+    width: 15%;
+    display: flex;
+}
+
+.buttons {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding-right: 1em;
+}
+
+.end-meeting {
+    width: 10%;
+    display: flex;
+}
+
+.btn {
+    padding-right: .5em;
+}
+
+.green {
+    color: #4cc700;
+}
+
+.centered {
+    text-align: center;
+}
+
+.audio {
+    margin-right: 1em;
+}
+
+.end-meeting {
+    color: red;
+    background-color: #4a4a4a;
+    justify-content: center;
+    align-items: center;
 }
