@@ -16,13 +16,17 @@ body {
 
 .container {
     width: 80%;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 174px);
     margin: 2.5em auto;
-    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .text {
     color: white;
+    position: relative;
 }
 
 .button-size {
@@ -63,18 +67,19 @@ body {
 }
 
 /* MAIN */
-main {
-    overflow-y: auto;
+.img {
+    margin-right: 10px;
+    height: 146px;
 }
 
-.images {
-    display: flex;
+.name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: .3em;
+    background-color: rgba(83, 97, 110, .5);
 }
-
-.wrap {
-    flex-wrap: wrap;
-}
-
+  
 /* FOOTER */
 footer {
     height: 60px;
@@ -120,4 +125,5 @@ footer {
     background-color: #4a4a4a;
     justify-content: center;
     align-items: center;
+    margin-left: 7em;
 }
